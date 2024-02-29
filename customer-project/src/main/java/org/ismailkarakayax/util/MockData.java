@@ -27,10 +27,6 @@ public final class MockData {
         return INVOICE_LIST;
     }
     private static void mockData() {
-
-
-
-
         // Create mock data for Customer
         for (int i = 1; i <= 5; i++) {
             Customer customer = new Customer();
@@ -59,8 +55,6 @@ public final class MockData {
             Order order = new Order();
             order.setCustomer(customer);
             order.setProducts(products);
-
-
 
             // Create mock data for Invoice
             Invoice invoice = new Invoice();

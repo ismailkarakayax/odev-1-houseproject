@@ -1,0 +1,31 @@
+
+G	java:S106#"+Replace this use of System.out by a logger.(Ÿîõ„8„¶š´ß1
+G	java:S106$"+Replace this use of System.out by a logger.(¶­š‰8„¶š´ß1
+G	java:S106)"+Replace this use of System.out by a logger.(§ÖÕ8…¶š´ß1
+G	java:S106*"+Replace this use of System.out by a logger.(¶­š‰8…¶š´ß1
+L	java:S106-"+Replace this use of System.out by a logger.(³¸ø•ùÿÿÿÿ8‡¶š´ß1
+L	java:S106."+Replace this use of System.out by a logger.(’Ó´ùÿÿÿÿ8‡¶š´ß1
+G	java:S1064"+Replace this use of System.out by a logger.(‰ß„ş8ˆ¶š´ß1
+G	java:S1065"+Replace this use of System.out by a logger.(…¸—8‰¶š´ß1
+F	java:S106<"+Replace this use of System.out by a logger.(‡X8Õ«­´ß1
+L	java:S106?"+Replace this use of System.out by a logger.(“ã ÷üÿÿÿÿ8Ö«­´ß1
+L	java:S106@"+Replace this use of System.out by a logger.(Ç…†¥ıÿÿÿÿ8®³´ß1
+G	java:S106C"+Replace this use of System.out by a logger.(”©æœ8‚®³´ß1
+L	java:S106D"+Replace this use of System.out by a logger.(’„—÷úÿÿÿÿ8÷´´ß1
+L	java:S106K"+Replace this use of System.out by a logger.(‡îŸçúÿÿÿÿ8‘÷´´ß1
+G	java:S106T"+Replace this use of System.out by a logger.(‡¤“8¼è»´ß1
+G	java:S106U"+Replace this use of System.out by a logger.(ÉÑæƒ8µÌÎ´ß1
+L	java:S106]"+Replace this use of System.out by a logger.(¬³€şøÿÿÿÿ8µÌÎ´ß1
+L	java:S106^"+Replace this use of System.out by a logger.(ÕÃ¿™ıÿÿÿÿ8¶ÌÎ´ß1
+G	java:S106`"+Replace this use of System.out by a logger.(¼˜‚ª8·ÌÎ´ß1
+L	java:S106b"+Replace this use of System.out by a logger.(Š‘Ğµşÿÿÿÿ8²ôÓ´ß1
+L	java:S106d"+Replace this use of System.out by a logger.(•ù½ìüÿÿÿÿ8²ôÓ´ß1
+L	java:S106f"+Replace this use of System.out by a logger.(²¬È·ÿÿÿÿÿ8³ôÓ´ß1
+Z
+java:S1128"=Remove this unused import 'org.ismailkarakayax.entity.Order'.(üœ‘ 8Å–Ô´ß1
+V
+java:S1128"4Remove this unused import 'java.time.LocalDateTime'.(æÃ§ƒüÿÿÿÿ8Å–Ô´ß1
+L
+java:S1128"*Remove this unused import 'java.util.Set'.(ö²„¤şÿÿÿÿ8Å–Ô´ß1
+Z
+java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ8Å–Ô´ß1
