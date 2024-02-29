@@ -8,14 +8,9 @@ import org.ismailkarakayax.service.InvoiceService;
 import org.ismailkarakayax.util.MockData;
 
 import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.util.List;
-import java.util.Scanner;
-import java.util.Set;
-import java.util.stream.Collectors;
+import java.util.*;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+
 public class Main {
     public static void main(String[] args) {
 
@@ -75,12 +70,15 @@ public class Main {
         System.out.println("\n1500 TL Üstündeki Faturaların Ortalaması: " + averageHighValueInvoice);
 
 
-
         // Sistemdeki 500TL altındaki faturalara sahip müşterilerin isimlerini listele
         List<Customer> customersWithLowValueInvoices = invoiceService.findAllInvoices().stream()
                 .filter(invoice -> invoice.getTotalPrice() < 500.0)
-                .map(invoice -> invoice.getOrder().getCustomer())
+                .map(invoice -> Optional.ofNullable(invoice.getOrder())
+                        .map(Order::getCustomer)
+                        .orElse(null))
+                .filter(Objects::nonNull)
                 .toList();
+
         System.out.println("\n500 TL Altındaki Faturalara Sahip Müşterilerin İsimleri:");
         customersWithLowValueInvoices.forEach(customer -> System.out.println(customer.getName()));
 
