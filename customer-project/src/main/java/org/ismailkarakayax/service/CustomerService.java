@@ -24,7 +24,7 @@ public class CustomerService {
     public List<Customer> findCustomersWithNameContainingC() {
         return customers.stream()
                 .filter(customer -> customer.getName().toLowerCase().contains("c"))
-                .collect(Collectors.toList());
+                .toList();
     }
 
 }

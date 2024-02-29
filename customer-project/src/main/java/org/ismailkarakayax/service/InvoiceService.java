@@ -21,7 +21,7 @@ public class InvoiceService {
     public List<Invoice> findInvoicesWithTotalAmountGreaterThan(double amount) {
         return invoices.stream()
                 .filter(invoice -> invoice.getTotalPrice() > amount)
-                .collect(Collectors.toList());
+                .toList();
     }
 
 }

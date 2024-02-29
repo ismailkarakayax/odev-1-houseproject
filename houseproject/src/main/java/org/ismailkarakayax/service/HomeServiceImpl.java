@@ -21,17 +21,17 @@ public class HomeServiceImpl implements HomeService {
 
     @Override
     public List<HomeType> getHouseList() {
-        return homeList.stream().filter(homeType -> homeType instanceof House).collect(Collectors.toList());
+        return homeList.stream().filter(House.class::isInstance).collect(Collectors.toList());
     }
 
     @Override
     public List<HomeType> getMansionList() {
-        return homeList.stream().filter(homeType -> homeType instanceof Mansion).collect(Collectors.toList());
+        return homeList.stream().filter(Mansion.class::isInstance).collect(Collectors.toList());
     }
 
     @Override
     public List<HomeType> getVacationHomeList() {
-        return homeList.stream().filter(homeType -> homeType instanceof VacationHouse).collect(Collectors.toList());
+        return homeList.stream().filter(VacationHouse.class::isInstance).collect(Collectors.toList());
     }
 
 
